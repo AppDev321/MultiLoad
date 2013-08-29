@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+            android:id="@+id/add_download"
+            android:title="@string/main_menu_add_download"/>
+    <item
+            android:id="@+id/pause_all"
+            android:title="@string/main_menu_pause_all"/>
+    <item
+            android:id="@+id/resume_all"
+            android:title="@string/main_menu_resume_all"/>
+    <item
+            android:id="@+id/delete_all"
+            android:title="@string/main_menu_delete_all"/>
+    <item
+            android:id="@+id/settings"
+            android:title="@string/main_menu_settings"/>
+    <item
+            android:id="@+id/stopservice"
+            android:title="@string/main_menu_stopservice"/>
+    <item
+            android:id="@+id/remotectrl"
+            android:title="@string/main_menu_remotectrl"/>
+
+</menu>

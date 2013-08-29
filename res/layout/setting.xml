@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+              android:padding="2dp">
+
+    <ScrollView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:id="@+id/scrollView">
+        <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+            <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/settings_max_downloads"
+                    android:id="@+id/textView"/>
+            <EditText
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/editTextMaxLoads" android:inputType="number" android:numeric="signed" android:singleLine="true"
+                    android:selectAllOnFocus="true"/>
+            <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/settings_max_connections"
+                    android:id="@+id/textView1"/>
+            <EditText android:layout_width="fill_parent" android:layout_height="wrap_content" android:id="@+id/editTextMaxThreads"
+                      android:inputType="number" android:numeric="signed" android:singleLine="true"
+                      android:selectAllOnFocus="true"/>
+            <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/settings_timeouts"
+                    android:id="@+id/textView2"/>
+            <EditText android:layout_width="fill_parent" android:layout_height="wrap_content" android:id="@+id/editTextTimeOut"
+                      android:inputType="number" android:numeric="signed" android:singleLine="true"
+                      android:selectAllOnFocus="true"/>
+            <CheckBox
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/settings_autosize_buffer"
+                    android:id="@+id/checkBoxAutoSizeBuf" android:checked="false"/>
+            <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/setting_buffer_size"
+                    android:id="@+id/textView3"/>
+            <EditText android:layout_width="fill_parent" android:layout_height="wrap_content" android:id="@+id/editTextBufSize"
+                      android:inputType="number" android:numeric="signed" android:singleLine="true"
+                      android:selectAllOnFocus="true"/>
+            <CheckBox
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/settings_wifi_chek"
+                    android:id="@+id/checkBoxCheckWifi" android:checked="false"/>
+            <CheckBox
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/settings_show_add"
+                    android:id="@+id/checkBoxShowAdd" android:checked="false"/>
+            <Button
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/settings_reset_settings"
+                    android:id="@+id/buttonResetSettings"/>
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

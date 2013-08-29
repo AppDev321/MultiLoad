@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">MultiLoad</string>
+
+    <!-- error strings-->
+    <string name="error_url_empty">Error empty url</string>
+    <string name="error_sd_access">Error do not have access to the sd</string>
+
+    <!-- menu strings-->
+    <string name="main_menu_add_download">Add</string>
+    <string name="main_menu_pause_all">Pause all</string>
+    <string name="main_menu_resume_all">Resume all</string>
+    <string name="main_menu_delete_all">Delete all</string>
+    <string name="main_menu_settings">Settings</string>
+    <string name="main_menu_stopservice">Exit</string>
+    <string name="main_menu_remotectrl">Remote Load</string>
+
+    <!-- ui strings-->
+    <string name="label_url">Url:</string>
+    <string name="label_filename">File Name (optional):</string>
+    <string name="label_deletefiles">Delete Files?</string>
+    <string name="label_yes">Yes</string>
+    <string name="label_no">No</string>
+    <string name="label_openfile">Open file:</string>
+    <string name="label_connecting">Connecting to host...</string>
+    <string name="label_loading">Loading</string>
+    <string name="label_downloadcomplete">Download is complete</string>
+    <string name="label_downloadpaused">Download is paused</string>
+    <string name="label_downloadwait">Download is waiting</string>
+    <string name="label_speed">Speed:</string>
+    <string name="label_error">Error:</string>
+    <string name="label_user_name">Login:</string>
+    <string name="label_password">Password:</string>
+
+    <string name="btn_add">Add</string>
+    <string name="btn_edit">Edit</string>
+    <string name="btn_cancel">Cancel</string>
+    <string name="btn_pause">Pause</string>
+    <string name="btn_resume">Resume</string>
+    <string name="btn_reload">Reload</string>
+    <string name="btn_delete">Delete</string>
+    <string name="btn_delete_file">Delete File</string>
+    <string name="btn_login">Login</string>
+    <string name="btn_register">Register</string>
+    <string name="btn_load_urls">Show all urls</string>
+
+    <string name="settings_max_downloads">Max. downloads</string>
+    <string name="settings_max_connections">Max. Threads</string>
+    <string name="settings_timeouts">Timeout (1000 = 1 sec)</string>
+    <string name="settings_autosize_buffer">Auto size buffer</string>
+    <string name="setting_buffer_size">Buffer size</string>
+    <string name="settings_wifi_chek">Download when wifi on</string>
+    <string name="settings_show_add">Show window on url intercept</string>
+    <string name="settings_reset_settings">Reset settings</string>
+
+</resources>

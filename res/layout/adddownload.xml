@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+    <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" android:paddingLeft="2dp" android:paddingRight="2dp">
+        <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/label_url"
+                android:id="@+id/textView"/>
+        <EditText
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/urlEdit"
+                android:selectAllOnFocus="true"
+                android:inputType="textUri|textMultiLine"/>
+
+        <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/label_filename"
+                android:id="@+id/textView1"/>
+        <EditText
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/filenameEdit"
+                android:selectAllOnFocus="true"/>
+        <Button
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/btn_add"
+                android:id="@+id/btnAdd"
+                android:onClick="addBtnClick"/>
+        <Button
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/btn_cancel"
+                android:id="@+id/btnCancel"
+                android:onClick="cancelBtnClick"/>
+    </LinearLayout>
+</ScrollView>

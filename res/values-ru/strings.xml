@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">MultiLoad</string>
+
+    <!-- error strings-->
+    <string name="error_url_empty">Ошибка пустой url</string>
+    <string name="error_sd_access">Ошибка нету доступа к карте памяти</string>
+
+    <!-- menu strings-->
+    <string name="main_menu_add_download">Добавить</string>
+    <string name="main_menu_pause_all">Остановить все</string>
+    <string name="main_menu_resume_all">Продолжить все</string>
+    <string name="main_menu_delete_all">Удалить все</string>
+    <string name="main_menu_settings">Настройки</string>
+    <string name="main_menu_stopservice">Выйти</string>
+    <string name="main_menu_remotectrl">Удаленная загрузка</string>
+
+    <!-- ui strings-->
+    <string name="label_url">Url:</string>
+    <string name="label_filename">Имя файла (необязательно):</string>
+    <string name="label_deletefiles">Удалить файлы?</string>
+    <string name="label_yes">Да</string>
+    <string name="label_no">Нет</string>
+    <string name="label_openfile">Открытие файла:</string>
+    <string name="label_connecting">Соединение с хостом...</string>
+    <string name="label_loading">Загрузка</string>
+    <string name="label_downloadcomplete">Загрузка завершена</string>
+    <string name="label_downloadpaused">Загрузка остановлена</string>
+    <string name="label_downloadwait">Загрузка в ожидании</string>
+    <string name="label_speed">Скорость:</string>
+    <string name="label_error">Ошибка:</string>
+    <string name="label_user_name">Login:</string>
+    <string name="label_password">Password:</string>
+
+    <string name="btn_add">Добавить</string>
+    <string name="btn_edit">Редактировать</string>
+    <string name="btn_cancel">Отмена</string>
+    <string name="btn_pause">Остановить</string>
+    <string name="btn_resume">Продолжить</string>
+    <string name="btn_reload">Перезагрузить</string>
+    <string name="btn_delete">Удалить</string>
+    <string name="btn_delete_file">Удалить файл</string>
+    <string name="btn_login">Login</string>
+    <string name="btn_register">Register</string>
+    <string name="btn_load_urls">Показать все ссылки</string>
+
+    <string name="settings_max_downloads">Количество загрузок</string>
+    <string name="settings_max_connections">Количество потоков на загрузку</string>
+    <string name="settings_timeouts">Timeout (1000 = 1 сек.)</string>
+    <string name="settings_autosize_buffer">Авто размер буфера</string>
+    <string name="setting_buffer_size">Размер буфера</string>
+    <string name="settings_wifi_chek">Скачивать только при включенном wifi</string>
+    <string name="settings_show_add">Показывать окно при перехвате ссылки</string>
+    <string name="settings_reset_settings">Сброс настроек</string>
+
+</resources>
